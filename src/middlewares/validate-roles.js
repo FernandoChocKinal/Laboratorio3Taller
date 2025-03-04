@@ -1,4 +1,5 @@
 export const hasRoles = (...roles) => {
+    
     return (req, res, next) => {
         if (!req.usuario) {
             return res.status(500).json({
