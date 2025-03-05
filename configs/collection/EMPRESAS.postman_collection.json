@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "154eace9-d320-419b-825f-5f8ad1780f46",
+		"name": "EMPRESAS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42798822"
+	},
+	"item": [
+		{
+			"name": "actualizarEmpresa",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M3YzJjODIzZjllY2M2OTcyOGZhZmIiLCJpYXQiOjE3NDExNDUxNzMsImV4cCI6MTc0MTE2MzE3M30.lJfKkitacTdL25k6IYeuhrWXN6tFrrtJuX7q1Zi4uho",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombreEmpresa\": \"Banco Banks\",\r\n  \"direccionEmpresa\": \"Zona 5, Centro Bancario, PISO 21\",\r\n  \"telefonoEmpresa\": \"10203040\",\r\n  \"emailEmpresa\": \"bancobanks@gmail.com\",\r\n  \"ContactoDueño\": \"Sr. Banks\",\r\n  \"anoFundacion\": \"1984\",\r\n  \"categoriaEmpresa\": \"Economica\",\r\n  \"nivelImpacto\": \"MEDIO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/empresaCoperex/v1/Empresa/editarEmpresa/67c7cb8323f9ecc69728fb25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"empresaCoperex",
+						"v1",
+						"Empresa",
+						"editarEmpresa",
+						"67c7cb8323f9ecc69728fb25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generarReporte",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M3YzJjODIzZjllY2M2OTcyOGZhZmIiLCJpYXQiOjE3NDExNDUxNzMsImV4cCI6MTc0MTE2MzE3M30.lJfKkitacTdL25k6IYeuhrWXN6tFrrtJuX7q1Zi4uho",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"minTrayectoria\": \"20\",\r\n\"maxTrayectoria\": \"100\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/empresaCoperex/v1/Empresa/generarReporte",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"empresaCoperex",
+						"v1",
+						"Empresa",
+						"generarReporte"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registrarEmpresa",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M3YzJjODIzZjllY2M2OTcyOGZhZmIiLCJpYXQiOjE3NDExNDUxNzMsImV4cCI6MTc0MTE2MzE3M30.lJfKkitacTdL25k6IYeuhrWXN6tFrrtJuX7q1Zi4uho",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombreEmpresa\": \"POLLO RICO\",\r\n  \"direccionEmpresa\": \"Ciudad capital, zona 3\",\r\n  \"telefonoEmpresa\": \"12348765\",\r\n  \"emailEmpresa\": \"pollorico@gmail.com\",\r\n  \"ContactoDueño\": \"Mr. Pollo\",\r\n  \"anoFundacion\": \"1975\",\r\n  \"categoriaEmpresa\": \"Comida rapida\",\r\n  \"nivelImpacto\": \"ALTO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/empresaCoperex/v1/Empresa/agregarEmpresa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"empresaCoperex",
+						"v1",
+						"Empresa",
+						"agregarEmpresa"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

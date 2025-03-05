@@ -15,14 +15,14 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: "http://localhost:3000/businessSystem/v1"
+                url: "http://127.0.0.1:3001/empresaCoperex/v1"
             }
         ]
     },
     apis:[
-        "../src/auth/auth.routes.js",
-        "../src/user/user.routes.js",
-        "../src/empresa/empresa.routes.js"
+        "./src/auth/auth.routes.js",
+        "./src/user/user.routes.js",
+        "./src/empresa/empresa.routes.js"
     ]
 }
 

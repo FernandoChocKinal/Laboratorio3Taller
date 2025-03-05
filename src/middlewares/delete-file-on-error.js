@@ -1,5 +1,5 @@
 import fs from "fs/promises";
-import { join } from "path";
+import { join } from "path"; 
 
 export const deleteFileOnError = async (req, res, next) => {
     if (req.file && req.file.path) {
@@ -10,5 +10,5 @@ export const deleteFileOnError = async (req, res, next) => {
             console.log(`Error deleting file: ${unlinkErr}`);
         }
     }
-    next(err);
-}
+    next();
+};

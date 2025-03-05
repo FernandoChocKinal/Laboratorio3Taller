@@ -7,12 +7,12 @@ export const adminPorDefault = async () => {
         const adminDefault = await User.findOne({ role: "ADMIN_ROLE" });
 
         if (!adminDefault) {
-            const contraseña = await hash("beatles2007");
+            const contraseña = await hash("COPEREX2007");
 
             const adminData = {
-                name: "Fernando David",
-                surname: "Choc Baltazar",
-                username: "fchoc2020619",
+                name: "COPEREX",
+                surname: "Coperex",
+                username: "fchoc",
                 email: "fchoc@gmail.com",
                 password: contraseña,
                 role: "ADMIN_ROLE",

@@ -108,7 +108,7 @@ export const generarReporte = async (req, res) => {
 
         const buffer = await workbook.xlsx.writeBuffer();
 
-        const reportPath = path.join(__dirname, '../../public/reportesExcel');
+        const reportPath = path.join(__dirname, '../../public/reporteExcel');
         if (!fs.existsSync(reportPath)) {
             fs.mkdirSync(reportPath, { recursive: true });
         }

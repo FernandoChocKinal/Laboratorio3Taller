@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "c357f14a-8a70-41d8-8cf4-9ef1279173e9",
+		"name": "USERS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42798822"
+	},
+	"item": [
+		{
+			"name": "updatePassword",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"oldPassword\": \"#8887777\",\r\n  \"newPassword\": \"12121212\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/empresaCoperex/v1/User/updatePassword/67c7c25023f9ecc69728faf8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"empresaCoperex",
+						"v1",
+						"User",
+						"updatePassword",
+						"67c7c25023f9ecc69728faf8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateUser",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M3YzJjODIzZjllY2M2OTcyOGZhZmIiLCJpYXQiOjE3NDExNDUxNzMsImV4cCI6MTc0MTE2MzE3M30.lJfKkitacTdL25k6IYeuhrWXN6tFrrtJuX7q1Zi4uho",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Pedro\",\r\n  \"surname\": \"Perez\",\r\n  \"username\": \"COPEREXperez\",\r\n  \"email\": \"pperez@coperex.com\",\r\n  \"phone\": \"36777744\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/empresaCoperex/v1/User/updateUser/67c7c25023f9ecc69728faf8?=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"empresaCoperex",
+						"v1",
+						"User",
+						"updateUser",
+						"67c7c25023f9ecc69728faf8"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

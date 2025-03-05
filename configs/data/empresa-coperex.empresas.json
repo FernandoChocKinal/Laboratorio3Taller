@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "67c7c94023f9ecc69728fb12"
+  },
+  "nombreEmpresa": "POLLO RICO",
+  "direccionEmpresa": "Ciudad capital, zona 3",
+  "telefonoEmpresa": "12348765",
+  "emailEmpresa": "pollorico@gmail.com",
+  "ContactoDueño": "Mr. Pollo",
+  "anoFundacion": 1975,
+  "categoriaEmpresa": "Comida rapida",
+  "nivelImpacto": "ALTO",
+  "trayectoria": 50,
+  "createdAt": {
+    "$date": "2025-03-05T03:47:12.708Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:47:12.708Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7ca4223f9ecc69728fb16"
+  },
+  "nombreEmpresa": "McRicas",
+  "direccionEmpresa": "USA, Kentucky",
+  "telefonoEmpresa": "88885551",
+  "emailEmpresa": "mcricas@gmail.com",
+  "ContactoDueño": "Mr. Mac",
+  "anoFundacion": 1955,
+  "categoriaEmpresa": "Comida rapida",
+  "nivelImpacto": "ALTO",
+  "trayectoria": 70,
+  "createdAt": {
+    "$date": "2025-03-05T03:51:30.089Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:51:30.089Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7ca9e23f9ecc69728fb1a"
+  },
+  "nombreEmpresa": "Kike",
+  "direccionEmpresa": "USA, Chicago",
+  "telefonoEmpresa": "55522123",
+  "emailEmpresa": "kikesport@gmail.com",
+  "ContactoDueño": "Mr. Kike",
+  "anoFundacion": 1980,
+  "categoriaEmpresa": "Ropa",
+  "nivelImpacto": "MEDIO",
+  "trayectoria": 45,
+  "createdAt": {
+    "$date": "2025-03-05T03:53:02.932Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:53:02.932Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7cb2e23f9ecc69728fb1e"
+  },
+  "nombreEmpresa": "CONTIGO",
+  "direccionEmpresa": "zona 4, Plaza tecnologica",
+  "telefonoEmpresa": "45456565",
+  "emailEmpresa": "contigo@gmail.com",
+  "ContactoDueño": "Mr. Ian",
+  "anoFundacion": 2001,
+  "categoriaEmpresa": "Tecnologia",
+  "nivelImpacto": "ALTO",
+  "trayectoria": 24,
+  "createdAt": {
+    "$date": "2025-03-05T03:55:26.237Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:55:26.237Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7cb8323f9ecc69728fb25"
+  },
+  "nombreEmpresa": "Banco Banks",
+  "direccionEmpresa": "Zona 5, Centro Bancario, PISO 21",
+  "telefonoEmpresa": "10203040",
+  "emailEmpresa": "bancobanks@gmail.com",
+  "ContactoDueño": "Sr. Banks",
+  "anoFundacion": 1984,
+  "categoriaEmpresa": "Economica",
+  "nivelImpacto": "MEDIO",
+  "trayectoria": 41,
+  "createdAt": {
+    "$date": "2025-03-05T03:56:51.200Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:59:15.431Z"
+  }
+}]

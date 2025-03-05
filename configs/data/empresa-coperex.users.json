@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "67c7c0c2c4b3e47ea11e8de3"
+  },
+  "name": "COPEREX",
+  "surname": "Coperex",
+  "username": "fchoc",
+  "email": "fchoc@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$lllFF6RCF4dLdyHCtSr6vw$4KkTS8FnWySozoO/Vb90v0Yot9DBIixm5T1O/mx4WpE",
+  "phone": "36367777",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c7c1f423f9ecc69728faf5"
+  },
+  "name": "Fernando",
+  "surname": "Choc",
+  "username": "COPEREXchoc",
+  "email": "fchoc@coperex.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$RrNr7g9MKKYsQ4/uL39bjA$pvFNuJEI9HzK2tzXKkBWwC6a5oDlKBOLTtvDWH35bOY",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c7c25023f9ecc69728faf8"
+  },
+  "name": "Pedro",
+  "surname": "Perez",
+  "username": "COPEREXperez",
+  "email": "pperez@coperex.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$52PKhp5nqrbjJ++TLRjeHg$S1fCdw48bXnG4z0Q+5wZWa3zksnPYCuy/yO8H2canQE",
+  "phone": "36777744",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c7c2c823f9ecc69728fafb"
+  },
+  "name": "Farid",
+  "surname": "Dieck",
+  "username": "COPEREXdieck",
+  "email": "fdieck@coperex.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$QxeJC3zSq62aGCrLQBjP0A$ZqKCTn77JyznBVv++uat+L25iTSkh3hFzndFnsl2V4Q",
+  "phone": "11223344",
+  "role": "ADMIN_ROLE",
+  "status": true
+}]
